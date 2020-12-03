@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-12-03 16:04:58
- * @LastEditTime: 2020-12-03 16:28:32
+ * @LastEditTime: 2020-12-03 16:32:17
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /vue-goodsku/commitlint.config.js
@@ -12,7 +12,8 @@ module.exports = {
         "type-enum": [
             2, //代表必须输入
             "always", [
-                "upd", // 更新某功能（不是 feat, 不是 fix）1
+                "build", // 发布版本
+                "upd", // 更新某功能（不是 feat, 不是 fix)
                 "feat", // 新功能（feature）
                 "fix", // 修补bug
                 "refactor", // 重构（即不是新增功能，也不是修改bug的代码变动）

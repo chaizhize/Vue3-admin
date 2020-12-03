@@ -34,7 +34,10 @@
     },
     "husky": {
         "hooks": {
-            "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
+            "pre-add": "echo 我要提交代码啦",
+            "pre-commit": "echo 我要提交代码啦",
+            "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS",
+            "pre-push": "echo 我要推送代码啦"
         }
     }
 }
