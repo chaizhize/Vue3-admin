@@ -34,8 +34,7 @@
     },
     "husky": {
         "hooks": {
-            "pre-add": "echo 我要提交代码啦",
-            "pre-commit": "echo 我要提交代码啦",
+            "pre-commit": "echo 我要提交代码了，注意提交规范，冒号后面有空格哦",
             "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS",
             "pre-push": "echo 我要推送代码啦"
         }

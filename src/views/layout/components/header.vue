@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-11-30 19:00:37
- * @LastEditTime: 2020-12-03 15:07:35
+ * @LastEditTime: 2020-12-04 17:13:53
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /vue-goodsku/src/views/layout/components/header.vue
@@ -21,7 +21,6 @@
 		/>
 
 	</a-layout-header>
-	<div>{{count}}</div>
 </template>
 
 <script lang="ts">
@@ -50,7 +49,6 @@
 		setup(props, { emit }) {
 			const state = reactive({
 				collapsed: false,
-				// count: props.count,
 			});
 			const count = computed(() => props.count);
 
