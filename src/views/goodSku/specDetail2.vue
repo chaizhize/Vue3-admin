@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-12-03 15:24:05
- * @LastEditTime: 2020-12-04 22:36:59
+ * @LastEditTime: 2020-12-07 15:57:24
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /vue-goodsku/src/views/goodSku/specDetail2.vue
@@ -237,19 +237,19 @@
 							// 	state.newData.length > 2
 							// 		? state.newList[index][2].name
 							// 		: "",
-							// ['spec'+(i+1)]:((i)=>{
-							// 	if(state.newData.length > 1){
-							// 		// return state.newList[index][i].name
-							// 		for (let j = 0; j < state.newList[index].length; j++) {
-							// 			return state.newList[index][j].name
-							// 		}
-							// 		// return state.newList[index][index].name
-							// 		// console.log(state.newList[index],'state.newList[index]');
-							// 		// return state.newList[index][index].name
-							// 	}else{
-							// 		return state.newList[i].name
-							// 	}
-							// })(index),
+							['spec'+(i+1)]:((i)=>{
+								if(state.newData.length > 1){
+									// return state.newList[index][i].name
+									for (let j = 0; j < state.newList[index].length; j++) {
+										return state.newList[index][j].name
+									}
+									// return state.newList[index][index].name
+									// console.log(state.newList[index],'state.newList[index]');
+									// return state.newList[index][index].name
+								}else{
+									return state.newList[i].name
+								}
+							})(index),
 							goods_price: 0.01,
 							bar_code: "",
 							goods_stock: 0,

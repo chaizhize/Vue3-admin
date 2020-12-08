@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-11-30 16:59:02
- * @LastEditTime: 2020-12-02 15:58:43
+ * @LastEditTime: 2020-12-08 11:14:16
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /vue-goodsku/src/router/index.ts
@@ -47,7 +47,7 @@ const routes: Array<RouteRecordRaw> = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHistory('/vue3/'),
   routes
 })
 

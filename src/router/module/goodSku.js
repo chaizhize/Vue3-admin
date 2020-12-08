@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-11-30 17:22:35
- * @LastEditTime: 2020-12-04 17:08:45
+ * @LastEditTime: 2020-12-08 11:13:32
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /vue-goodsku/src/router/module/goodSku.js
@@ -31,7 +31,6 @@ export default [{
         }, ],
     },
 ];
-
 
 
 
